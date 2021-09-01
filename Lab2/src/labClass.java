@@ -97,19 +97,24 @@ public class labClass {
 		myLinkedList.display();
 		
 		
-		System.out.println("\t\tFirst Pop");
-		myLinkedList.pop(); 
+		System.out.println("\t\tFirst lifo Pop");
+		myLinkedList.lifo_pop(); 
 		myLinkedList.display();
 			
 	
 
-		System.out.println("\t\t2nd Pop"); 
-		myLinkedList.pop(); 
+		System.out.println("\t\t2nd lifo Pop"); 
+		myLinkedList.lifo_pop(); 
 		myLinkedList.display();
 		
 		
-		System.out.println("\t\t1st lifo Pop"); 
+		System.out.println("\t\t3rd lifo Pop"); 
 		myLinkedList.lifo_pop(); 
+		myLinkedList.display();
+		
+		
+		System.out.println("\n\t\t1st fifo Pop"); 
+		myLinkedList.pop(); 
 		myLinkedList.display();
 	}
 
